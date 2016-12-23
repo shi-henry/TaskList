@@ -82,9 +82,6 @@ int main()
 	// taskQue.postTask(pBase1,&Base1::func2);
 	// taskQue.popTask();
     makeTask(pBase2, &Base2::func1);
-    
-    
-	cout<<"ddddddddddddddddddddddd"<<endl;
 	return 0;
 }
 
