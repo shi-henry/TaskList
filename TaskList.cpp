@@ -2,8 +2,10 @@
 
 #include <iostream>
 #include <deque>
+#include <tr1/memory>
 
 using namespace std;
+using namespace std::tr1;
 
 class Base1
 {
