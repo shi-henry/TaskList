@@ -79,8 +79,6 @@ int main()
     Taskque<Base1>::Tfunc ppo;
 	Taskque<Base1> taskQue;
 	Base2* pBase2 = new Base2();
-	// taskQue.postTask(pBase1,&Base1::func2);
-	// taskQue.popTask();
     makeTask(pBase2, &Base2::func1);
 	return 0;
 }
